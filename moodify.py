@@ -25,11 +25,12 @@ def detect_emotion():
         return "neutral"
     
     try:
-        analysis = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=False, detector_backend='opencv')
+        # Enhanced face detection with 'mtcnn' or 'dlib'
+        analysis = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=True, detector_backend='mtcnn')
         if isinstance(analysis, list) and len(analysis) > 0:
             emotion = analysis[0].get('dominant_emotion', 'neutral')
         else:
-            emotion = analysis.get('dominant_emotion', 'neutral')
+            emotion = 'neutral'
         return emotion
     except Exception as e:
         print(f"[ERROR] Emotion detection failed: {e}")
@@ -268,3 +269,4 @@ def get_playlist_by_mood():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
