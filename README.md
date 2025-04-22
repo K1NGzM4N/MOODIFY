@@ -32,7 +32,7 @@ Made with ❤️ by **Anandhu M S**, **Hemendra Patel**, and **Bhati Akshraj Sin
 |-----------|--------------------------------------------------|
 | Backend   | Python, Flask                                   |
 | AI Model  | [DeepFace](https://github.com/serengil/deepface) |
-| Face Input | OpenCV                                          |
+| Face Input | MTCNN                                          |
 | Frontend  | HTML, CSS, JS (with Poppins font & gradient UI) |
 | Music API | Spotify (public playlist links)                 |
 
