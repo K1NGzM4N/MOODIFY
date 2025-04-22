@@ -15,8 +15,6 @@ Made with ❤️ by **Anandhu M S**, **Hemendra Patel**, and **Bhati Akshraj Sin
 
 ---
 
-
-
 ## 📸 How It Works
 
 1. Open the app in your browser.
@@ -38,6 +36,16 @@ Made with ❤️ by **Anandhu M S**, **Hemendra Patel**, and **Bhati Akshraj Sin
 
 ---
 
+## 📂 Dataset Used
+
+### FER-2013 (Facial Expression Recognition)
+
+- **Source**: [Kaggle - FER 2013](https://www.kaggle.com/datasets/msambare/fer2013)
+- **Description**: A publicly available dataset containing 35,887 grayscale images (48x48 pixels) of faces classified into 7 emotions: `Angry`, `Disgust`, `Fear`, `Happy`, `Sad`, `Surprise`, and `Neutral`.
+- **Usage in Moodify**: The dataset was used for testing, model evaluation, and customizing mood detection features for better performance.
+
+---
+
 ## 📦 Installation
 
 ### 🛠 Requirements
@@ -55,61 +63,34 @@ cd MOODIFY
 
 # Install required Python packages
 pip install -r requirements.txt
-```
+🎶 Supported Emotions
 
-**`requirements.txt`**
-```txt
-flask
-opencv-python
-deepface
-```
+Emotion	Spotify Playlist
+Happy	Playlist
+Sad	Playlist
+Angry	Playlist
+Surprise	Playlist
+Fear	Playlist
+Disgust	Playlist
+Neutral	Playlist
+👨‍💻 Team
+Anandhu M S
 
-### 🚀 Run the App
+Hemendra Patel
 
-```bash
-python app.py
-```
+Bhati Akshraj Sinh
 
-Visit `http://127.0.0.1:5000` in your browser.
+📜 License
+This project is open-source and available under the MIT License.
 
----
+🙌 Acknowledgements
+DeepFace
 
-## 🎶 Supported Emotions
+Spotify
 
-| Emotion   | Spotify Playlist |
-|-----------|------------------|
-| Happy     | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC) |
-| Sad       | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DX7qK8ma5wgG1) |
-| Angry     | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DWYxwmBaMqxsl) |
-| Surprise  | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DWTfrr8pte1rT) |
-| Fear      | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO) |
-| Disgust   | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DX7gtIfGVzmkY) |
-| Neutral   | [Playlist](https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6) |
+FER-2013 Dataset
 
----
+🌐 Website
+https://moodify-yb7c.onrender.com
 
-## 👨‍💻 Team
-
-- **Anandhu M S**  
-- **Hemendra Patel**  
-- **Bhati Akshraj Sinh**
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙌 Acknowledgements
-
-- [DeepFace](https://github.com/serengil/deepface)
-- [Spotify](https://spotify.com)
-
-## website
-- https://moodify-yb7c.onrender.com
-  
----
-
-> Music connects hearts, heals minds, and fuels moments. Let MOODIFY match your vibes 🎧
+Music connects hearts, heals minds, and fuels moments. Let MOODIFY match your vibes 🎧
