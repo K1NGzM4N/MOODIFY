@@ -56,41 +56,14 @@ Made with ❤️ by **Anandhu M S**, **Hemendra Patel**, and **Bhati Akshraj Sin
 
 ### 🔧 Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/K1NGzM4N/MOODIFY.git
-cd MOODIFY
-
-# Install required Python packages
+- Clone the repository and install the required packages:
+git clone https://github.com/K1NGzM4N/MOODIFY.git  
+cd MOODIFY  
 pip install -r requirements.txt
-🎶 Supported Emotions
+-requirements.txt contains:
+flask  
+opencv-python  
+deepface  
 
-Emotion	Spotify Playlist
-Happy	Playlist
-Sad	Playlist
-Angry	Playlist
-Surprise	Playlist
-Fear	Playlist
-Disgust	Playlist
-Neutral	Playlist
-👨‍💻 Team
-Anandhu M S
 
-Hemendra Patel
 
-Bhati Akshraj Sinh
-
-📜 License
-This project is open-source and available under the MIT License.
-
-🙌 Acknowledgements
-DeepFace
-
-Spotify
-
-FER-2013 Dataset
-
-🌐 Website
-https://moodify-yb7c.onrender.com
-
-Music connects hearts, heals minds, and fuels moments. Let MOODIFY match your vibes 🎧
