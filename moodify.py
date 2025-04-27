@@ -221,7 +221,7 @@ def index():
 
             <div class="bottom-note">
                 <p>🎧 Music connects hearts, heals minds, and fuels moments.</p>
-                <p class="creators">Made with ❤️ by Anandhu M S, Hemendra Patel & Bhati Akshraj Sinh</p>
+                <p class="creators">Made with ❤️ by Meet Prajapati, Zeel Dudhat & Neel Patel</p>
             </div>
         </div>
 
