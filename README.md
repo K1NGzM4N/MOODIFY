@@ -2,7 +2,7 @@
 
 Welcome to **Moodify** — a fun and powerful web application that detects your mood using facial expressions and recommends Spotify playlists that match your emotion.
 
-Made with ❤️ by **Anandhu M S**, **Hemendra Patel**, and **Bhati Akshraj Sinh**.
+Made with ❤️ by **prajapati meet**, **Dudhat zeel**, and **Neel patel**.
 
 ---
 
@@ -110,9 +110,9 @@ fer2013/
 
 ## 👨‍💻 Team
 
-- **Anandhu M S**  
-- **Hemendra Patel**  
-- **Bhati Akshraj Sinh**
+- **prajapatio meet**  
+- **Dudhat zeel**  
+- **Neel patel**
 
 ---
 
