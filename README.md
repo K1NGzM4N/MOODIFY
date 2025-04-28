@@ -110,7 +110,7 @@ fer2013/
 
 ## 👨‍💻 Team
 
-- **prajapatio meet**  
+- **prajapati meet**  
 - **Dudhat zeel**  
 - **Neel patel**
 
